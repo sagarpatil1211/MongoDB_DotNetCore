@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MongoDB.Bson" Version="2.30.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.29.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.29.0" />
+    <PackageReference Include="MongoDB.Libmongocrypt" Version="1.12.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+	  
+	  <!--for infrastucture-->
+	  <PackageReference Include="Akka" Version="1.5.13" />
+	  <PackageReference Include="Hangfire.AspNetCore" Version="1.8.6" />
+	  <PackageReference Include="Hangfire.Core" Version="1.8.6" />
+	  <PackageReference Include="Hangfire.MemoryStorage" Version="1.8.0" />
+	  <PackageReference Include="HarfBuzzSharp.NativeAssets.Linux" Version="7.3.0" />
+	  <PackageReference Include="Humanizer" Version="2.14.1" />
+	  <PackageReference Include="MailKit" Version="4.2.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+	  <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="7.0.13" />
+	  <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="7.0.13" />
+	  <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" Version="7.0.13" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyModel" Version="9.0.0" />
+	  <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="7.0.0" />
+	  <PackageReference Include="MimeKit" Version="4.8.0" />
+	  <PackageReference Include="MimeMapping" Version="2.0.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="Npgsql" Version="9.0.1" />
+	  <PackageReference Include="RazorPay.Core" Version="1.0.2" />
+	  <PackageReference Include="RestSharp" Version="112.1.0" />
+	  <PackageReference Include="SkiaSharp" Version="2.88.6" />
+	  <PackageReference Include="SkiaSharp.NativeAssets.Linux" Version="2.88.6" />
+	  <PackageReference Include="Syncfusion.DocIO.Net.Core" Version="23.1.42" />
+	  <PackageReference Include="Syncfusion.DocIORenderer.Net.Core" Version="23.1.42" />
+	  <PackageReference Include="Syncfusion.Pdf.Net.Core" Version="23.1.42" />
+	  <PackageReference Include="Syncfusion.XlsIO.Net.Core" Version="23.1.42" />
+	  <PackageReference Include="Syncfusion.XlsIORenderer.Net.Core" Version="23.1.42" />
+	  <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+	  <PackageReference Include="System.Data.SQLite" Version="1.0.118" />
+	  <PackageReference Include="System.ServiceModel.Primitives" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\MSSQL\" />
+    <Folder Include="Domain\Strore\" />
+    <Folder Include="MSSqlServerModels\" />
+  </ItemGroup>
+
+</Project>
